@@ -1,0 +1,46 @@
+************************************************
+Department [departmentId=1, departmentName=Accounting]
+	Manager [id: 123, Mehmet Ari
+		# of Employees: 3]
+			1. Developer 
+				Person Info [id=111, firstName=Ayse, lastName=Caliskan, gender=Woman]
+				Employee Info [salary=6150.0, hireDate=10/10/2017]
+				RegularEmployee Info [performanceScore=25.0, bonus=24590.16]
+				[Project [projectName=CreditCard, startDate=1/5/2017, state=false], Project [projectName=Robotic, startDate=1/5/2019, state=true]]
+			2. SalesEmployee 
+				Person Info [id=167, firstName=Serkan, lastName=Yildiz, gender=Man]
+				Employee Info [salary=9850.0, hireDate=14/2/2015]
+				RegularEmployee Info [performanceScore=50.0, bonus=73770.49]
+				[Product [productName=Product5, transactionDate=11/1/2017, price=90000.0], Product [productName=Product1, transactionDate=1/1/2019, price=10000.0]]
+			3. RegularEmployee 
+				Person Info [id=156, firstName=Bulut, lastName=Karadag, gender=Man]
+				Employee Info [salary=4550.0, hireDate=15/11/2018]
+				RegularEmployee Info [performanceScore=75.0, bonus=51639.34]
+
+************************************************
+Department [departmentId=2, departmentName=Marketing]
+	Manager [id: 256, Arzu Ozturk
+		# of Employees: 2]
+			1. Developer 
+				Person Info [id=247, firstName=Fatma, lastName=Esin, gender=Woman]
+				Employee Info [salary=6150.0, hireDate=4/11/2016]
+				RegularEmployee Info [performanceScore=80.0, bonus=28571.43]
+				[Project [projectName=FaceRecognition, startDate=1/7/2018, state=true], Project [projectName=SpeechRecognition, startDate=1/9/2018, state=true], Project [projectName=ATM, startDate=1/0/2019, state=true]]
+			2. SalesEmployee 
+				Person Info [id=213, firstName=Mustafa, lastName=Emir, gender=Man]
+				Employee Info [salary=11800.0, hireDate=24/5/2014]
+				RegularEmployee Info [performanceScore=100.0, bonus=71428.57]
+				[Product [productName=Product1, transactionDate=1/1/2019, price=10000.0], Product [productName=Product2, transactionDate=1/2/2019, price=1500.0], Product [productName=Product3, transactionDate=1/11/2018, price=15000.0]]
+
+
+
+**********************CUSTOMERS************************
+Customer [id: 224 products=[Product [productName=Product1, transactionDate=1/1/2019, price=10000.0], Product [productName=Product2, transactionDate=1/2/2019, price=1500.0], Product [productName=Product5, transactionDate=11/1/2017, price=90000.0]]]
+Customer [id: 267 products=[Product [productName=Product3, transactionDate=1/11/2018, price=15000.0]]]
+Customer [id: 178 products=[Product [productName=Product2, transactionDate=1/2/2019, price=1500.0], Product [productName=Product3, transactionDate=1/11/2018, price=15000.0]]]
+
+
+**********************PEOPLE************************
+Person [id=145, firstName=Ismail, lastName=Celik, gender=Man, birthDate=9/6/1988, maritalStatus=Married, hasDriverLicence=Yes]
+Person [id=189, firstName=Taner, lastName=Eser, gender=Man, birthDate=9/1/1967, maritalStatus=Single, hasDriverLicence=Yes]
+Person [id=236, firstName=Ela, lastName=Kara, gender=Woman, birthDate=24/9/1989, maritalStatus=Married, hasDriverLicence=No]
